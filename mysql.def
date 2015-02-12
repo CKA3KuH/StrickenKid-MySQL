@@ -1,0 +1,9 @@
+LIBRARY	"MySQL"
+
+EXPORTS
+	Supports
+	Load
+	Unload
+	AmxLoad
+	AmxUnload
+	ProcessTick

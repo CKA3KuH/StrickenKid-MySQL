@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_SDK">
+      <UniqueIdentifier>{ff2d578d-f172-44e7-80a3-c2ffaf623926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_SDK\amx">
+      <UniqueIdentifier>{41ae50e1-5a79-4528-9b6b-44dee885d018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mysql">
+      <UniqueIdentifier>{7d98b989-fd67-42d7-9d2f-5fe31df90a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Natives">
+      <UniqueIdentifier>{c4d733cc-5545-4f85-bd99-759ea9228cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{6112be76-60bc-4765-9e93-5ec732c4ab40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{316b9e3c-88f1-4160-b09a-b0ec6ea2f31f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDK\amxplugin.cpp">
+      <Filter>_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\amx\getch.c">
+      <Filter>_SDK\amx</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQL\Mysql.cpp">
+      <Filter>Mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQL\Natives.cpp">
+      <Filter>Natives</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQL\Thread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQL\Base.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQL\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\plugin.h">
+      <Filter>_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\plugincommon.h">
+      <Filter>_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\amx.h">
+      <Filter>_SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\getch.h">
+      <Filter>_SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\sclinux.h">
+      <Filter>_SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\Mysql.h">
+      <Filter>Mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\Natives.h">
+      <Filter>Natives</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\Thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\Base.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\Main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mysql.def" />
+  </ItemGroup>
+</Project>
